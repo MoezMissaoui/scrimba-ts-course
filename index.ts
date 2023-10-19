@@ -38,15 +38,19 @@ showReviewTotal(reviews.length, reviews[0].name, reviews[0].loyaltyUser)
 
 
 const you: {
-    firstName : string;
+    firstName: string;
     lastName: string;
     isReturning: boolean;
     age: number;
+    stayedAt: string[];
+    phone: (string | number)[];
 } = {
-   firstName: 'Bobby',
-   lastName: 'Brown',
-   isReturning: true,
-   age: 35
+    firstName: 'Bobby',
+    lastName: 'Brown',
+    isReturning: true,
+    age: 35,
+    stayedAt: ['florida-home', 'oman-flat', 'tokyo-bungalow'],
+    phone: ['256987001', 96550236]
 }
 
 
